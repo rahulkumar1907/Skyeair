@@ -1,0 +1,26 @@
+Cancellation Successfull! 
+
+Your Flight Plan Cancelled Successfully 
+Check your cancellation details here !
+Enjoy With Us!
+
+Check your details here !
+FlightId	{{FlightId}}
+OrderId	{{OrderId}}
+SkyTunnel Id	{{SkyTunnelId}}
+Start Time	{{StartTime}}
+End Time	{{EndTime}}
+Package Type	{{PackageType}}
+Package Weight	{{PackageWeight}}
+Volumetric Weight	{{VolumetricWeight}}
+Pickup Time	{{PickupTime}}
+Cold Chain	{{ColdChain}}
+DroneId	{{DroneId}}
+Drone Name	{{DroneName}}
+ClientId	{{ClientId}}
+OrganizationId	{{OrganizationId}}
+
+
+Thanks,
+Skyeair Support 
+skyeair.tech

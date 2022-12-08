@@ -1,0 +1,33 @@
+
+Hello Team, 
+
+We are happy to inform that client has been registered for a new flight plan.
+Check here the details of flight plan
+
+FlightId	{{FlightId}}
+OrderId	{{OrderId}}
+SkyTunnel Id	{{SkyTunnelId}}
+Start Time	{{StartTime}}
+End Time	{{EndTime}}
+Number Of Packages	{{NumOfPackages}}
+Package Type	{{PackageType}}
+Package Weight	{{PackageWeight}}
+Package Category	{{PackageCategory}}
+Package Condition	{{PackageCondition}}
+Volumetric Weight	{{VolumetricWeight}}
+Pickup Time	{{PickupTime}}
+Cold Chain	{{ColdChain}}
+DroneId	{{DroneId}}
+Drone Name	{{DroneName}}
+ClientId	{{ClientId}}
+OrganizationId	{{OrganizationId}}
+
+{{ApproveLink}}
+
+Thanks,
+Skyeair Support 
+skyeair.tech
+
+// link to compress html and escaped json
+// https://www.freeformatter.com/json-escape.html#ad-output
+// https://www.textfixer.com/html/compress-html-compression.php

@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "skyeair-cdea4",
+    "private_key_id": "26335d138eec566eca9425071753100d3ca2dbe8",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCgbDZqLKNNXjY2\njK4uj307Jp6PCD5hKzMGWwuQd3eIVHgkqeANkOvdGT0mtb27dfo1TMWPtz7eC9C9\nzQMyxv8l0i7ebDNE2HONnJWC91PvsEJUIin3CgQPFgGHC59TGSILRqwaZ/StnD26\nUCk5YKUHIEDvT+nv7f2PJu+SWcTJaspig47052P/M//IbVcK4AzhoFIVpYnKPPUh\nE4+TtnP7lojRpHhNOKlj9pTyl9cTkv+MkWIDTmBOE9N8aNlJIADKVMydMXJ1/mKL\njPvh0UpHB1bdmnV8sUFMegGvDlygwlwBhM+6hpSEimiRB6QtX46CqkzQTJTc5Gzt\nImwETcl3AgMBAAECggEAJ88SpcBT+dQCMgExDB7RXcdUm3vZNvWoYNBhC0WKJQuJ\nENgS4GrxDNnBggShg45gO6/Eash3UlSuRRtFyuj00ebZeJpzEoeADUkpFOnZK2aa\n3xPnRAV5QmEcme15aP6YoyGzfY4EeryF2OEhibqA2UbYtkonbEGrpUVtN+0M10pD\nPy5T/Yz4VB7sFDFxUhqDvkonbwfpAOT+4Bwm3bbzglDUPH436DyCtbiyeJNdexaB\nOx2dE8DjRy+weA9s/bfdWELBKQNRvj37WZaXCmqEuUjsa+jB2pTgnA/S0PUw7vt9\njhYLiA4x9mOAAuXe+6sTcL1lHlWbiy0WtjWbcMXnOQKBgQDM3ho0XUsMkzg1LlRH\nV+cuFN+SNSGgIySOrNoFeUtkTdHedLhm4NRhdqWj3rm6yyV6AWw5gdQvcrLzUCfi\n09oWOKLwilhwUnrUz02BVtIer0wr7MdgKvcO9DsFoBT3mQxLY69nF8r/j1PwHzjz\n/QqtkC4qDJ43MqJLix+k87nhFQKBgQDIdlRuWXL5smv133IV9J2i7FTdAtt3CzGn\nHg6E3QvCmvvMY/eRkNeGBcmUY4lj4fvlcfoygu0R7JmQuw9ggTEG0pwxbSXQUxaZ\nX/lDRntl5sH9AqgU97UT5u8FXXG49bJPXiqjTT8Ncq3UgkZKyngPBlZT2ZDWUz8Y\nF0Aog0trWwKBgGIxgnXe0X3xgltbHWIkq9XWg2JcvQU4UulfyBAflxc4hYMOhuQo\nlyMv7yygMH1rqUbVL75QkBc97q/Yl4WM7VcBRnfsl38eyWj/A7Meng+/Dc9v6hAa\nB9jPDwsfM22Jme74lLXhHZdoZ18MWAv6GQgft0DIU305c7ipsj0p5MoRAoGAHrNo\nqOHQJwe5WxWWjmBBSDNzp8mJPQkc2KBUzupfo7VCvQHOZ5/MMj1uqug3oXF5t6Em\nFVhR4H3g4vaTG0+N56KXw0YZFXe0LVcygKgpu+iEazBd96AcPmkO0D6IbTBL17Xv\nR8VL085tau9svoWVr49j50GZ2gkzz4e4DrxU76MCgYBwvYp8dqY9cnMK54VTkkID\nAnx9Iv5bLp3JYpQV5BPZMuwFe24kI6RHGMhFPtZRW46gjxqiqTYMtJ4oagJaySJ/\nRBcNQeDqKPWIyMOQdkX5uNZoTGkQrdCRix/rG31/tMZCCKFz/xUnRKahd7pZDVWL\noMOHerFl7j655HRdsYIc/A==\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-xk295@skyeair-cdea4.iam.gserviceaccount.com",
+    "client_id": "110289783675368712596",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-xk295%40skyeair-cdea4.iam.gserviceaccount.com"
+  }
