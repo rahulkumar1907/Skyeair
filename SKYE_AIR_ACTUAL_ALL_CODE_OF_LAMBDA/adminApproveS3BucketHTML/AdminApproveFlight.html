@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        text-align: center;
+        padding: 40px 0;
+        background: #EBF0F5;
+    }
+
+    h1 {
+        color: #88B04B;
+        font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #404F5E;
+        font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    i {
+        color: #9ABC66;
+        font-size: 100px;
+        line-height: 200px;
+        margin-left: -15px;
+    }
+
+    .card {
+        background: white;
+        padding: 60px;
+        border-radius: 4px;
+        box-shadow: 0 2px 3px #C8D0D8;
+        display: inline-block;
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+
+
+
+    <!-- <p id="demo">Success</p> -->
+    <div class="card" id="demo">
+        <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
+            <i class="checkmark">✓</i>
+        </div>
+        <h1>Success</h1>
+        <p>Flight has been Scheduled Sucessfully!!</p>
+    </div>
+    <script>
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchParams = Object.fromEntries(urlParams.entries());
+        console.log(searchParams);
+
+
+        document.getElementById("demo").style.display = "none";
+
+        var http = new XMLHttpRequest();
+        var url = 'https://ugcohpw1b6.execute-api.ap-south-1.amazonaws.com/client/flight/approve-flight-request';
+        var params = `${searchParams.flightid}`;
+
+
+        console.log(searchParams.flightid)
+        http.open('POST', url, true);
+
+        //Send the proper header information along with the request
+        http.setRequestHeader('Content-type', 'application/json');
+
+        http.onreadystatechange = function () {//Call a function when the state changes.
+            if (http.readyState == 4 && http.status == 200) {
+                document.getElementById("demo").style.display = "block";
+
+                // alert(http.responseText);
+            }
+        }
+        http.send(params);
+
+    </script>
+
+</body>
+
+</html>
